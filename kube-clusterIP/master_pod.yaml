@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+name: master-nginx
+spec:
+containers:
+- name: master-nginx
+image: aftab005/cloudethix-master-nginx-aftab:v1
+ports:
+- containerPort: 80
