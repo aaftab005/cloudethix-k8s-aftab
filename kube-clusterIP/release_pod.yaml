@@ -1,10 +1,10 @@
 apiVersion: v1
 kind: Pod
 metadata:
-name: release-nginx
+ name: release-nginx
 spec:
-containers:
-- name: release-nginx
-image: 
-ports:
-- containerPort: 80
+ containers:
+ - name: release-nginx
+   image: aftab005/cloudethix-release-nginx-aftab:v1 
+   ports:
+    - containerPort: 80
