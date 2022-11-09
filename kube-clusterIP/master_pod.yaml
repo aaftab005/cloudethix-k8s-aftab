@@ -7,6 +7,6 @@ metadata:
 spec:
  containers:
  - name: master-nginx
-   image: aftab005/cloudethix-master-nginx-aftab:v2
+   image: aftab005/cloudethix-master-nginx-aftab:v3
    ports:
    - containerPort: 80

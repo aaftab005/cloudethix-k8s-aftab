@@ -7,6 +7,6 @@ metadata:
 spec:
  containers:
  - name: release-nginx
-   image: aftab005/cloudethix-release-nginx-aftab:v2
+   image: aftab005/cloudethix-release-nginx-aftab:v3
    ports:
     - containerPort: 80
